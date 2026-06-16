@@ -1,0 +1,24 @@
+Data Flow :
+
+User
+  |
+  v
+Frontend (HTML/CSS/JavaScript)
+  |
+  v
+Flask API (Backend)
+  |
+  v
+Text Preprocessing
+  |
+  v
+TF-IDF Vectorizer
+  |
+  v
+Machine Learning Model
+  |
+  v
+Prediction (Real/Fake)
+  |
+  v
+Frontend Displays Result
