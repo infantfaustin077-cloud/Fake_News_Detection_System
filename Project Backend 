@@ -1,0 +1,29 @@
+Backend :
+
+Technologies:
+•Python
+•Flask
+•Pandas
+•Scikit-learn
+•NLTK
+•NumPy
+
+Backend Functions :
+•Receive news text from frontend.
+•Clean and preprocess the text.
+•Convert text using TF-IDF.
+•Send text to the trained machine learning     model.
+•Predict whether the news is fake or real.
+•Return the result to the frontend.
+
+Backend Structure :
+
+backend/
+│
+├── app.py
+├── train_model.py
+├── model.pkl
+├── vectorizer.pkl
+└── dataset/
+    ├── Fake.csv
+    └── True.csv
