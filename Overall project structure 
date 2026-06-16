@@ -1,0 +1,22 @@
+Overall Project Structure :
+
+fake-news-detection-system/
+
+│
+├── frontend/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+│
+├── backend/
+│   ├── app.py
+│   ├── train_model.py
+│   ├── model.pkl
+│   ├── vectorizer.pkl
+│   └── dataset/
+│       ├── Fake.csv
+│       └── True.csv
+│
+└── requirements.txt
