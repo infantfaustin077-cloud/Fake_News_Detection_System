@@ -1,0 +1,33 @@
+Frontend :
+Technologies:
+•HTML
+•CSS
+•JavaScript
+•Bootstrap 
+Frontend Pages :
+
+1. Home Page (index.html)
+
+Features:
+Project title
+Text area to enter news content
+"Check News" button
+Result display section
+
+2. Result Section
+
+Displays:
+✅ Real News
+❌ Fake News
+Confidence percentage
+
+Frontend Structure :
+
+frontend/
+│
+├── index.html
+├── css/
+│   └── style.css
+└── js/
+    └── script.js
+
