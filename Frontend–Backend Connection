@@ -1,0 +1,43 @@
+JavaScript (Frontend):
+
+fetch('/predict', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    news: newsText
+  })
+})
+.then(response => response.json())
+.then(data => {
+  document.getElementById('result').innerHTML =
+    data.result;
+});
+
+Flask Backend (app.py):
+
+@app.route('/predict', methods=['POST'])
+
+def predict():
+
+    data = request.get_json()
+
+    news = data['news']
+
+    vector = vectorizer.transform([news])
+
+    prediction = model.predict(vector)
+
+    if prediction[0] == 1:
+
+        result = "Real News"
+
+    else:
+
+        result = "Fake News"
+
+    return jsonify({
+        "result": result
+    })
+
