@@ -1,0 +1,16 @@
+User Input:
+
+India successfully launched a new communication satellite from the Satish Dhawan Space Centre. ISRO scientists confirmed that the mission achieved all planned objectives.
+
+System Process:
+
+•User enters the news.
+•Flask backend receives the text.
+•Text is cleaned and converted using TF-IDF.
+•The trained Passive Aggressive Classifier             analyzes the text.
+•The model predicts the result.
+
+Output:
+
+Prediction: Real News ✅
+Confidence: 98.2%
