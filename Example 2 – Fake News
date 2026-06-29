@@ -1,0 +1,15 @@
+User Input:
+
+Scientists discovered a magical fruit that makes people invisible for 24 hours after eating it.
+
+System Process:
+
+•User enters the news.
+•Backend preprocesses the text.
+•TF-IDF extracts important features.
+•The machine learning model classifies the news.
+
+Output:
+
+Prediction: Fake News ❌
+Confidence: 97.5%
